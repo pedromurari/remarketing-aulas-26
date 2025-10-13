@@ -7,12 +7,12 @@ const CTASection = () => {
       <div className="container mx-auto text-center max-w-4xl">
         <div className="mb-6">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
-            📌 Não perca nenhum detalhe da Turma #25!
+            📌 Não perca nenhum detalhe da Turma #26!
           </h2>
           
           <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 max-w-2xl mx-auto mb-6">
             <p className="text-sm md:text-base text-white font-semibold">
-              📅 <strong>Datas:</strong> 9, 10 e 11 de Setembro<br />
+              📅 <strong>Datas:</strong> 14, 15 e 16 de Outubro<br />
               🕗 <strong>Horário:</strong> 20h (todos os dias)
             </p>
           </div>
@@ -30,7 +30,7 @@ const CTASection = () => {
           asChild
         >
           <a 
-            href="https://chat.whatsapp.com/LW39MSlaFLxEjzIH1y7ViS" 
+            href="https://chat.whatsapp.com/CXSEcmaHhG47k0AJervAbQ" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 md:gap-3"

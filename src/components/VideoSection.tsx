@@ -10,22 +10,22 @@ const videos: VideoData[] = [
   {
     title: "Aula 01 – O DESPERTAR",
     theme: "Teoria do aparelho psíquico, estrutura e as portas do inconsciente.",
-    videoId: "dazCYUtJpuU",
-    date: "09/09",
+    videoId: "i4aAA0EObC0",
+    date: "14/10",
     time: "20hrs"
   },
   {
     title: "Aula 02 – A CURA", 
     theme: "Narcisismo, traumas e autoestima pela lente da Psicanálise.",
-    videoId: "ZVp43V64NoU",
-    date: "10/09",
+    videoId: "kZ3rbwazMZo",
+    date: "15/10",
     time: "20hrs"
   },
   {
     title: "Aula 03 – A REVELAÇÃO",
     theme: "Pulsão de morte, estresse extremo e atos suicidas.",
-    videoId: "Z_TijMd01dA",
-    date: "11/09",
+    videoId: "2PRUWCWZ4HE",
+    date: "16/10",
     time: "20hrs"
   }
 ];
