@@ -15,8 +15,7 @@ const videos: VideoData[] = [
     videoId: "i4aAA0EObC0",
     date: "14/10",
     time: "20hrs",
-    liveUrl: "https://youtube.com/live/i4aAA0EObC0?feature=share",
-    featured: true
+    liveUrl: "https://youtube.com/live/i4aAA0EObC0?feature=share"
   },
   {
     title: "Aula 02 – A CURA", 
@@ -24,7 +23,8 @@ const videos: VideoData[] = [
     videoId: "kZ3rbwazMZo",
     date: "15/10",
     time: "20hrs",
-    liveUrl: "https://youtube.com/live/kZ3rbwazMZo?feature=share"
+    liveUrl: "https://youtube.com/live/kZ3rbwazMZo?feature=share",
+    featured: true
   },
   {
     title: "Aula 03 – A REVELAÇÃO",
