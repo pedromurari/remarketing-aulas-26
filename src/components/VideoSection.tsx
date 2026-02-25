@@ -12,27 +12,27 @@ const videos: VideoData[] = [
   {
     title: "Aula 01 – O DESPERTAR",
     theme: "Teoria do aparelho psíquico, estrutura e as portas do inconsciente.",
-    videoId: "i4aAA0EObC0",
-    date: "14/10",
+    videoId: "917nSBgxSqY",
+    date: "10/03",
     time: "20hrs",
-    liveUrl: "https://youtube.com/live/i4aAA0EObC0?feature=share"
+    liveUrl: "https://youtube.com/live/917nSBgxSqY?feature=share",
+    featured: true
   },
   {
     title: "Aula 02 – A CURA", 
     theme: "Narcisismo, traumas e autoestima pela lente da Psicanálise.",
-    videoId: "kZ3rbwazMZo",
-    date: "15/10",
+    videoId: "En-BXO-zEu8",
+    date: "11/03",
     time: "20hrs",
-    liveUrl: "https://youtube.com/live/kZ3rbwazMZo?feature=share",
-    featured: true
+    liveUrl: "https://youtube.com/live/En-BXO-zEu8?feature=share"
   },
   {
     title: "Aula 03 – A REVELAÇÃO",
     theme: "Pulsão de morte, estresse extremo e atos suicidas.",
-    videoId: "2PRUWCWZ4HE",
-    date: "16/10",
+    videoId: "m6ogXuZkRcI",
+    date: "12/03",
     time: "20hrs",
-    liveUrl: "https://youtube.com/live/2PRUWCWZ4HE?feature=share"
+    liveUrl: "https://youtube.com/live/m6ogXuZkRcI?feature=share"
   }
 ];
 
@@ -124,7 +124,7 @@ const VideoSection = () => {
                 </a>
                 
                 <a
-                  href="https://chat.whatsapp.com/CXSEcmaHhG47k0AJervAbQ"
+                  href="https://chat.whatsapp.com/HODTnsHqGUPLuk9VUv9z7C"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto bg-brand-yellow hover:bg-brand-yellow/90 text-brand-navy font-bold py-4 px-8 rounded-lg transition-colors text-center inline-flex items-center justify-center gap-2 animate-pulse"
