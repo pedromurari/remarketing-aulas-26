@@ -30,7 +30,7 @@ const CTASection = () => {
           asChild
         >
           <a 
-            href="https://chat.whatsapp.com/HODTnsHqGUPLuk9VUv9z7C" 
+            href="https://chat.whatsapp.com/L4xQKmqIltpIP5tsVFWx22" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 md:gap-3"

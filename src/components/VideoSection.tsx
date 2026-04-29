@@ -124,7 +124,7 @@ const VideoSection = () => {
                 </a>
                 
                 <a
-                  href="https://chat.whatsapp.com/HODTnsHqGUPLuk9VUv9z7C"
+                  href="https://chat.whatsapp.com/L4xQKmqIltpIP5tsVFWx22"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto bg-brand-yellow hover:bg-brand-yellow/90 text-brand-navy font-bold py-4 px-8 rounded-lg transition-colors text-center inline-flex items-center justify-center gap-2 animate-pulse"
