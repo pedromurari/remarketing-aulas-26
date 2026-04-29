@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, ExternalLink } from "lucide-react";
+import { trackLead } from "@/lib/meta-pixel";
 
 const CTASection = () => {
   return (
@@ -29,10 +30,11 @@ const CTASection = () => {
           className="text-sm md:text-base px-4 md:px-6 max-w-xs mx-auto"
           asChild
         >
-          <a 
-            href="https://chat.whatsapp.com/L4xQKmqIltpIP5tsVFWx22" 
-            target="_blank" 
+          <a
+            href="https://chat.whatsapp.com/L4xQKmqIltpIP5tsVFWx22"
+            target="_blank"
             rel="noopener noreferrer"
+            onClick={trackLead}
             className="inline-flex items-center justify-center gap-2 md:gap-3"
           >
             <MessageCircle className="w-5 h-5 md:w-6 md:h-6 flex-shrink-0" />

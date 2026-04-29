@@ -1,3 +1,5 @@
+import { trackLead, trackViewContent, trackInitiateCheckout } from "@/lib/meta-pixel";
+
 interface VideoData {
   title: string;
   theme: string;
@@ -62,10 +64,11 @@ const VideoCard = ({ video }: { video: VideoData }) => {
         />
       </div>
       
-      <a 
+      <a
         href={video.liveUrl}
         target="_blank"
         rel="noopener noreferrer"
+        onClick={() => trackViewContent(video.title)}
         className="block w-full bg-brand-navy hover:bg-brand-navy/90 text-white font-semibold py-3 px-6 rounded-lg transition-colors text-center"
       >
         📺 Assistir Live Completa
@@ -114,19 +117,21 @@ const VideoSection = () => {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <a 
+                <a
                   href={featuredVideo.liveUrl}
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => trackInitiateCheckout(featuredVideo.title)}
                   className="w-full sm:w-auto bg-brand-navy hover:bg-brand-navy/90 text-white font-semibold py-4 px-8 rounded-lg transition-colors text-center inline-flex items-center justify-center gap-2"
                 >
                   📺 Assistir Live Completa
                 </a>
-                
+
                 <a
                   href="https://chat.whatsapp.com/L4xQKmqIltpIP5tsVFWx22"
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={trackLead}
                   className="w-full sm:w-auto bg-brand-yellow hover:bg-brand-yellow/90 text-brand-navy font-bold py-4 px-8 rounded-lg transition-colors text-center inline-flex items-center justify-center gap-2 animate-pulse"
                 >
                   <svg className="w-5 h-5 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
