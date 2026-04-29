@@ -11,7 +11,7 @@ const Footer = () => {
         </div>
         
         <p className="text-muted-foreground text-sm">
-          © 2025 GRUPO DESPERTAMENTE. Todos os direitos reservados.
+          © 2026 GRUPO DESPERTAMENTE. Todos os direitos reservados.
         </p>
       </div>
     </footer>

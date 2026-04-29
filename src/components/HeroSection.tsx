@@ -8,7 +8,7 @@ const HeroSection = () => {
         <div className="mb-6">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-brand-navy mb-4 leading-tight">
             🎉 Curso Gratuito de Introdução à Psicanálise
-            <span className="block text-brand-yellow mt-2">Turma #29</span>
+            <span className="block text-brand-yellow mt-2">Turma #33</span>
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-6 leading-relaxed">
@@ -18,7 +18,7 @@ const HeroSection = () => {
 
         <div className="bg-brand-yellow/10 border border-brand-yellow/30 rounded-lg p-4 max-w-2xl mx-auto mb-6">
           <p className="text-sm md:text-base text-brand-navy font-semibold">
-            📅 <strong>Datas das Aulas:</strong> 10, 11 e 12 de Março<br />
+            📅 <strong>Datas das Aulas:</strong> 28, 29 e 30 de Abril<br />
             🕗 <strong>Horário:</strong> 20h (todos os dias)
           </p>
         </div>
@@ -49,7 +49,7 @@ const HeroSection = () => {
           <p className="text-sm md:text-base text-brand-navy flex items-start gap-2">
             <BookOpen className="w-5 h-5 mt-0.5 flex-shrink-0 text-brand-yellow" />
             <span>
-              <strong>💡 Salve este site nos seus favoritos!</strong> Todas as aulas da Turma #29 estarão disponíveis aqui até o final do curso.
+              <strong>💡 Salve este site nos seus favoritos!</strong> Todas as aulas da Turma #33 estarão disponíveis aqui até o final do curso.
             </span>
           </p>
         </div>
